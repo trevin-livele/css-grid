@@ -1,0 +1,59 @@
+.container-new{
+    width: 95%;
+    overflow: hidden;
+    background: skyblue;
+    margin: 20px auto;
+    padding: 20px 0px;
+}
+.container-new ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.container-new ul li{
+    list-style: none;
+    float: left;
+    width: 25%;
+    height: 250px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/30/15/23/apples-1873078_960_720.jpg");
+    margin: 40px 30px 0px 40px;
+    box-sizing: border-box;
+    border: 2px solid white;
+}
+.container-new ul li :hover{
+
+    opacity: 0.9;
+
+}
+.container-new ul li .title{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: white;
+    text-align: center;
+
+}
+.container-new ul li .title{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: white;
+    text-align: center;
+}
+
+
+@media screen and (max-width:1250px) {
+    .container-new{
+        width: 100%;
+        padding: 0px;
+
+    }
+    .container-new ul li{
+        float: none;
+        width: 90%;
+        margin: 40px auto;
+    }
+
+    
+}
